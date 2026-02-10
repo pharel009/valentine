@@ -47,7 +47,7 @@ const Home = () => {
          */}
         <div className="mt-10 pt-4 border-t border-white/60 text-center">
           <p className="text-xs text-red-400 font-light tracking-wide">
-            ⛔ Try clicking NO… if you dare 😈
+            ⛔ Try clicking NO… if you dare 😃
           </p>
         </div>
       </Container>

@@ -148,7 +148,7 @@ const Surprise = () => {
           {!accepted && (
             <p className="text-xs text-gray-500">
               I dare you… click <span className="font-semibold">NO</span> if you
-              can 😈
+              can 😃
             </p>
           )}
         </div>
