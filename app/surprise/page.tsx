@@ -9,7 +9,7 @@ const messages = [
   "Why are you resisting love 😭",
   "My heart is waiting 💔",
   "Just say YES already 😩",
-  "I promise snacks and love 💕",
+  "I promise flowers and love 💕",
 ];
 
 const gif = "/love2.gif";
@@ -69,7 +69,7 @@ const Surprise = () => {
   };
 
   return (
-    <div className="bg-purple-700/70 min-h-screen flex items-center justify-center">
+    <div className="bg-red-700/70 min-h-screen flex items-center justify-center">
       {/* confetti */}
       {accepted && (
         <div className="fixed inset-0 pointer-events-none overflow-hidden z-50">
@@ -111,7 +111,7 @@ const Surprise = () => {
             )
           )}
 
-          <p className="text-red-500 text-sm font-medium">Engelberta Ozioma</p>
+          <p className="text-red-500 text-sm font-medium">Engelberta</p>
           <h2 className="text-xl font-semibold text-gray-800">
             {!accepted ? (
               <>
